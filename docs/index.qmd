@@ -1,0 +1,31 @@
+---
+title: "Capstone Project"
+format: html
+editor: visual
+author: George Acquaah
+toc: true
+---
+
+# Project Description
+
+This project aims to access the water quality treatment efficiency of water treatment plant by assessing the quality of raw water and finally treatment water.
+
+# Project Goals
+
+1.  
+
+2.  
+
+3.  hh
+
+    ```{r}
+    library(readxl)
+    ```
+
+    ```{r}
+    read_excel(here::here("data/raw/data2_capstone_rhema619.xlsx"))
+    ```
+
+```{r}
+read.csv(here::here("data/raw/data_rhema619.csv"))
+```
